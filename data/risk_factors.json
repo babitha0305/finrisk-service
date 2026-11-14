@@ -1,0 +1,146 @@
+[
+ {
+  "id": "NWFR-1",
+  "ticker": "NWFR",
+  "company": "Northwind Freight",
+  "text": "We depend on a limited number of ocean carriers and port terminals; disruptions, strikes or congestion at key ports could delay shipments and raise our costs."
+ },
+ {
+  "id": "NWFR-2",
+  "ticker": "NWFR",
+  "company": "Northwind Freight",
+  "text": "Fuel price volatility and changes to emissions regulation may increase our operating expenses, and we may be unable to pass these costs on to customers."
+ },
+ {
+  "id": "NWFR-3",
+  "ticker": "NWFR",
+  "company": "Northwind Freight",
+  "text": "A breach of our shipment-tracking platform could expose customer data and interrupt operations, resulting in contractual penalties and reputational harm."
+ },
+ {
+  "id": "HLXB-1",
+  "ticker": "HLXB",
+  "company": "Helix Biologics",
+  "text": "Our lead drug candidate may fail in clinical trials or may not receive regulatory approval from the FDA or comparable foreign authorities."
+ },
+ {
+  "id": "HLXB-2",
+  "ticker": "HLXB",
+  "company": "Helix Biologics",
+  "text": "We rely on third-party contract manufacturers, and any shortage of raw materials or quality failure at their facilities could halt production."
+ },
+ {
+  "id": "HLXB-3",
+  "ticker": "HLXB",
+  "company": "Helix Biologics",
+  "text": "We may be subject to patent litigation from competitors, and an adverse ruling could require us to pay damages or stop selling a product."
+ },
+ {
+  "id": "ORBS-1",
+  "ticker": "ORBS",
+  "company": "Orbit Semiconductors",
+  "text": "Our wafers are fabricated by a single foundry in one geographic region, and geopolitical tensions or export restrictions could interrupt our supply."
+ },
+ {
+  "id": "ORBS-2",
+  "ticker": "ORBS",
+  "company": "Orbit Semiconductors",
+  "text": "Demand for our chips is cyclical and a downturn in consumer electronics could lead to inventory write-downs and lower margins."
+ },
+ {
+  "id": "ORBS-3",
+  "ticker": "ORBS",
+  "company": "Orbit Semiconductors",
+  "text": "Our revenue is denominated largely in US dollars while a significant share of costs is incurred in other currencies, exposing us to exchange rate fluctuations."
+ },
+ {
+  "id": "MRDN-1",
+  "ticker": "MRDN",
+  "company": "Meridian Bank",
+  "text": "Rising interest rates may compress our net interest margin and reduce the value of securities held in our investment portfolio."
+ },
+ {
+  "id": "MRDN-2",
+  "ticker": "MRDN",
+  "company": "Meridian Bank",
+  "text": "Deterioration in commercial real estate could increase loan defaults and require us to raise our allowance for credit losses."
+ },
+ {
+  "id": "MRDN-3",
+  "ticker": "MRDN",
+  "company": "Meridian Bank",
+  "text": "We must comply with capital and liquidity requirements, and tighter regulation could limit dividends and growth."
+ },
+ {
+  "id": "CBLT-1",
+  "ticker": "CBLT",
+  "company": "Cobalt Energy",
+  "text": "Our profitability depends on oil and natural gas prices, which have historically been volatile and are influenced by global supply decisions."
+ },
+ {
+  "id": "CBLT-2",
+  "ticker": "CBLT",
+  "company": "Cobalt Energy",
+  "text": "Climate legislation and carbon pricing could reduce demand for our products and increase the cost of compliance."
+ },
+ {
+  "id": "CBLT-3",
+  "ticker": "CBLT",
+  "company": "Cobalt Energy",
+  "text": "Operational accidents such as pipeline leaks or well blowouts could cause environmental damage, litigation and significant clean-up costs."
+ },
+ {
+  "id": "LMNR-1",
+  "ticker": "LMNR",
+  "company": "Lumen Retail",
+  "text": "Consumer discretionary spending is sensitive to inflation and unemployment; weaker consumer confidence could reduce store traffic and sales."
+ },
+ {
+  "id": "LMNR-2",
+  "ticker": "LMNR",
+  "company": "Lumen Retail",
+  "text": "We source most of our merchandise from overseas suppliers, and tariffs or shipping delays could raise costs and cause stock shortages."
+ },
+ {
+  "id": "LMNR-3",
+  "ticker": "LMNR",
+  "company": "Lumen Retail",
+  "text": "We process large volumes of payment card data, and a security incident could lead to fines, litigation and loss of customer trust."
+ },
+ {
+  "id": "VNTG-1",
+  "ticker": "VNTG",
+  "company": "Vantage Cloud",
+  "text": "Our subscription revenue depends on customer retention, and increased churn or pricing pressure from larger competitors could harm growth."
+ },
+ {
+  "id": "VNTG-2",
+  "ticker": "VNTG",
+  "company": "Vantage Cloud",
+  "text": "An outage at our hosting providers or a ransomware attack could make our services unavailable and breach our service level commitments."
+ },
+ {
+  "id": "VNTG-3",
+  "ticker": "VNTG",
+  "company": "Vantage Cloud",
+  "text": "Evolving data protection rules such as GDPR may restrict how we process customer data and expose us to substantial fines."
+ },
+ {
+  "id": "ATLS-1",
+  "ticker": "ATLS",
+  "company": "Atlas Insurance",
+  "text": "Catastrophic events such as hurricanes and floods may produce claims exceeding our reserves and reinsurance coverage."
+ },
+ {
+  "id": "ATLS-2",
+  "ticker": "ATLS",
+  "company": "Atlas Insurance",
+  "text": "Low interest rates reduce investment income on our bond portfolio, while rising rates can cause unrealised losses."
+ },
+ {
+  "id": "ATLS-3",
+  "ticker": "ATLS",
+  "company": "Atlas Insurance",
+  "text": "If our underwriting assumptions prove inaccurate, claims could exceed expected levels and reduce our solvency ratio."
+ }
+]

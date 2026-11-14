@@ -1,0 +1,122 @@
+[
+ {
+  "query": "port congestion delaying cargo",
+  "relevant": [
+   "NWFR-1"
+  ]
+ },
+ {
+  "query": "ransomware risk to cloud platform uptime",
+  "relevant": [
+   "VNTG-2"
+  ]
+ },
+ {
+  "query": "drug failing trials regulators",
+  "relevant": [
+   "HLXB-1"
+  ]
+ },
+ {
+  "query": "single manufacturing site geopolitics",
+  "relevant": [
+   "ORBS-1"
+  ]
+ },
+ {
+  "query": "currency exposure revenue in dollars",
+  "relevant": [
+   "ORBS-3"
+  ]
+ },
+ {
+  "query": "net interest margin squeeze rate hikes",
+  "relevant": [
+   "MRDN-1"
+  ]
+ },
+ {
+  "query": "commercial property loan losses",
+  "relevant": [
+   "MRDN-2"
+  ]
+ },
+ {
+  "query": "crude price swings hurt earnings",
+  "relevant": [
+   "CBLT-1"
+  ]
+ },
+ {
+  "query": "carbon pricing legislation",
+  "relevant": [
+   "CBLT-2"
+  ]
+ },
+ {
+  "query": "pipeline spill environmental cleanup",
+  "relevant": [
+   "CBLT-3"
+  ]
+ },
+ {
+  "query": "tariffs on imported goods",
+  "relevant": [
+   "LMNR-2"
+  ]
+ },
+ {
+  "query": "card payment data breach",
+  "relevant": [
+   "LMNR-3"
+  ]
+ },
+ {
+  "query": "customers cancelling subscriptions",
+  "relevant": [
+   "VNTG-1"
+  ]
+ },
+ {
+  "query": "privacy regulation fines",
+  "relevant": [
+   "VNTG-3"
+  ]
+ },
+ {
+  "query": "hurricane claims exceed reserves",
+  "relevant": [
+   "ATLS-1"
+  ]
+ },
+ {
+  "query": "low yields bond income",
+  "relevant": [
+   "ATLS-2"
+  ]
+ },
+ {
+  "query": "patent dispute with rival",
+  "relevant": [
+   "HLXB-3"
+  ]
+ },
+ {
+  "query": "contract manufacturer shortages",
+  "relevant": [
+   "HLXB-2"
+  ]
+ },
+ {
+  "query": "fuel costs emissions rules",
+  "relevant": [
+   "NWFR-2"
+  ]
+ },
+ {
+  "query": "weak consumer confidence reducing sales",
+  "relevant": [
+   "LMNR-1"
+  ]
+ }
+]

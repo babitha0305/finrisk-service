@@ -1,0 +1,32 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements-dev.txt
+      - run: pip install -r requirements-dev.txt
+      - run: pytest -q
+      - run: python -m app.eval
+      - uses: actions/upload-artifact@v4
+        with:
+          name: eval-results
+          path: eval_results.json
+  docker:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t finrisk-service .
+      - run: |
+          docker run -d -p 8000:8000 --name api finrisk-service
+          for i in $(seq 1 20); do curl -sf localhost:8000/health && exit 0; sleep 2; done
+          docker logs api; exit 1

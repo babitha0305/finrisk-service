@@ -1,0 +1,64 @@
+{
+  "n_queries": 20,
+  "recall@1": 0.75,
+  "recall@3": 0.9,
+  "recall@5": 0.9,
+  "mrr": 0.825,
+  "not_ranked_first": [
+    {
+      "query": "crude price swings hurt earnings",
+      "relevant": [
+        "CBLT-1"
+      ],
+      "top3": [
+        "NWFR-2",
+        "ATLS-3",
+        "ATLS-1"
+      ]
+    },
+    {
+      "query": "customers cancelling subscriptions",
+      "relevant": [
+        "VNTG-1"
+      ],
+      "top3": [
+        "NWFR-2",
+        "ATLS-3",
+        "ATLS-1"
+      ]
+    },
+    {
+      "query": "privacy regulation fines",
+      "relevant": [
+        "VNTG-3"
+      ],
+      "top3": [
+        "MRDN-3",
+        "VNTG-3",
+        "NWFR-2"
+      ]
+    },
+    {
+      "query": "hurricane claims exceed reserves",
+      "relevant": [
+        "ATLS-1"
+      ],
+      "top3": [
+        "ATLS-3",
+        "ATLS-1",
+        "ATLS-2"
+      ]
+    },
+    {
+      "query": "contract manufacturer shortages",
+      "relevant": [
+        "HLXB-2"
+      ],
+      "top3": [
+        "LMNR-2",
+        "HLXB-2",
+        "ATLS-1"
+      ]
+    }
+  ]
+}
