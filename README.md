@@ -68,7 +68,19 @@ python sagemaker/package_model.py
 python sagemaker/deploy_local.py   # 3/3 queries match the API (same tickers and scores)
 ```
 
-Validated in local mode only (no AWS charges). Switching `instance_type` and uploading the archive to S3 deploys it to SageMaker for real.
+### Deployed on AWS: SageMaker Serverless Inference
+
+`deploy_aws.py` uploads the model archive to S3 and creates a **serverless** endpoint (`finrisk-retriever`, eu-west-2, 2 GB, scales to zero so there is no idle cost):
+
+```bash
+python sagemaker/deploy_aws.py deploy   # S3 upload + serverless endpoint
+python sagemaker/deploy_aws.py test     # live queries, parity check vs the API
+python sagemaker/deploy_aws.py delete   # teardown
+```
+
+Measured on the live endpoint: **3/3 queries match the API exactly** (same tickers and scores); warm round-trip latency from the UK client **~40–75 ms**.
+
+**Monitoring:** container logs go to CloudWatch Logs (`/aws/sagemaker/Endpoints/finrisk-retriever`), and two CloudWatch alarms watch the endpoint: any 5xx invocation error in 5 minutes, and p95 `ModelLatency` above 500 ms.
 
 ## Cloud deployment
 
