@@ -54,9 +54,25 @@ uvicorn app.main:app --reload  # http://localhost:8000/docs
 docker compose up --build      # API on :8000, Prometheus on :9090
 ```
 
+## SageMaker model serving
+
+The retriever is also packaged as an Amazon SageMaker scikit-learn inference endpoint (`sagemaker/`):
+
+- `inference.py`: SageMaker handler (`model_fn`, `input_fn`, `predict_fn`, `output_fn`). The model archive holds the tagged passages and the TF-IDF index is fitted at container start, which avoids scikit-learn pickle incompatibilities between local and container versions.
+- `package_model.py`: builds `model.tar.gz`.
+- `deploy_local.py`: deploys with **SageMaker local mode** (AWS's official `sagemaker-scikit-learn` container running in Docker) and checks result parity against the API's retriever.
+
+```bash
+pip install "sagemaker[local]>=2.230,<3"
+python sagemaker/package_model.py
+python sagemaker/deploy_local.py   # 3/3 queries match the API (same tickers and scores)
+```
+
+Validated in local mode only (no AWS charges). Switching `instance_type` and uploading the archive to S3 deploys it to SageMaker for real.
+
 ## Cloud deployment
 
-See [DEPLOY.md](DEPLOY.md) for AWS steps (ECR + App Runner, CloudWatch logs and alarms, teardown).
+See [DEPLOY.md](DEPLOY.md) for AWS steps (ECR, CloudWatch logs and alarms, teardown). Note: AWS App Runner closed to new customers on 30 April 2026; new accounts should use ECS Express Mode or Lambda instead.
 
 ## Limitations and roadmap
 
