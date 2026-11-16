@@ -3,3 +3,7 @@ __pycache__/
 .venv/
 *.pyc
 sagemaker/build/
+sagemaker/setup.py
+sagemaker/setup.cfg
+sagemaker/MANIFEST.in
+*.egg-info/
